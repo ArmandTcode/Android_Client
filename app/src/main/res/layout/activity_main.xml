@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/toggleBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleLed1"
+        android:text="@string/toggle_led_1" />
+
+    <Button
+        android:id="@+id/toggleBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleLed2"
+        android:text="@string/toggle_led_2" />
+
+    <Button
+        android:id="@+id/toggleBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleLed3"
+        android:text="@string/toggle_led_3" />
+
+    <Button
+        android:id="@+id/toggleBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleLed4"
+        android:text="@string/toggle_led_4" />
+
+    <Button
+        android:id="@+id/toggleSen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleSensor1"
+        android:text="@string/toggle_sensor_1"
+        tools:text="@string/toggle_sensor_1" />
+
+    <Button
+        android:id="@+id/toggleSen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleSensor2"
+        android:text="@string/toggle_sensor_2"
+        tools:text="TOGGLE SENSOR 2" />
+
+    <Button
+        android:id="@+id/toggleSen3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleSensor3"
+        android:text="@string/toggle_sensor_3"
+        tools:text="TOGGLE SENSOR 3" />
+
+    <Button
+        android:id="@+id/toggleSen4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toggleSensor4"
+        android:text="@string/toggle_sensor_4"
+        tools:text="@string/toggle_sensor_4" />
+
+</LinearLayout>
