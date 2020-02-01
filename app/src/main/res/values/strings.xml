@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ServerArduino</string>
+    <string name="toggle_led_1">Toggle LED 1</string>
+    <string name="toggle_led_2">TOGGLE LED 2</string>
+    <string name="toggle_led_3">TOGGLE LED 3</string>
+    <string name="toggle_led_4">TOGGLE LED 4</string>
+    <string name="toggle_sensor_4">TOGGLE SENSOR 4</string>
+    <string name="toggle_sensor_1">TOGGLE SENSOR 1</string>
+    <string name="toggle_sensor_2">TOGGLE SENSOR 2</string>
+    <string name="toggle_sensor_3">TOGGLE SENSOR 3</string>
+</resources>
